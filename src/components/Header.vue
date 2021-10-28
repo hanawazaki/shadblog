@@ -33,7 +33,7 @@ export default {};
       margin: 0 7px
       width: 20px
   .title
-    font-family: 'Open sans'
+    font-family: 'Nunito'
     h1
       font-size: 45px
       font-weight: 600
