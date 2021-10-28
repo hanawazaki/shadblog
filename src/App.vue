@@ -16,6 +16,7 @@ export default {
 @import "@/css/_variables.sass"
 
 #app
+  margin: 0 150px
   text-align: center
   font-family: 'Nunito', sans-serif
   font-size: 18px

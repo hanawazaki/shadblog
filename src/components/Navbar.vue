@@ -16,7 +16,7 @@ export default {};
 
 #nav
   margin-top: 28px
-  margin-bottom: 80px
+  margin-bottom: 50px
   padding: 20px
   font-size: 16px
   font-weight: 400
