@@ -2,9 +2,7 @@
   <div class="home">
     <main class="main">
       <Featured />
-      <div class="blogposts">
-        <div class="blog"></div>
-      </div>
+      <BlogPosts />
     </main>
     <aside class="sidebar">
       <Profile />
@@ -18,6 +16,7 @@
 
 <script>
 import Featured from "@/components/Featured";
+import BlogPosts from "@/components/BlogPosts";
 import Profile from "@/components/Profile";
 import Socmed from "@/components/Socmed";
 import PopularPost from "@/components/PopularPost";
@@ -26,7 +25,15 @@ import Footer from "@/components/Footer";
 
 export default {
   name: "Home",
-  components: { Featured, Profile, Socmed, PopularPost, Tags, Footer },
+  components: {
+    Featured,
+    BlogPosts,
+    Profile,
+    Socmed,
+    PopularPost,
+    Tags,
+    Footer,
+  },
 };
 </script>
 
@@ -43,7 +50,7 @@ export default {
     grid-area: main
     display: grid
     grid-template-areas: "featured " "blogposts"
-    grid-template-rows: 1fr 2fr
+    grid-template-rows: 1fr 4fr
     grid-gap: 25px
 
     .blogposts
